@@ -1,0 +1,19 @@
+{
+    "name": "jsaqa-3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "eslint": "eslint",
+        "prettier": "prettier"
+    },
+    "devDependencies": {
+        "eslint": "7.1.0"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "prettier": "^2.8.0"
+    }
+}
