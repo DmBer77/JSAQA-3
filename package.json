@@ -4,16 +4,23 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "npx jest",
         "eslint": "eslint",
-        "prettier": "prettier"
+        "prettier": "prettier",
+        "coverage": "jest --collectCoverage"
     },
     "devDependencies": {
-        "eslint": "7.1.0"
+        "eslint": "7.1.0",
+        "jest": "^29.3.1"
+    }, 
+    "dependencies": {
+        "prettier": "^2.8.0"
     },
     "author": "",
     "license": "ISC",
-    "dependencies": {
-        "prettier": "^2.8.0"
+    "coverageThreshold": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
     }
 }
