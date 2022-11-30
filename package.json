@@ -4,12 +4,13 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "npx jest playwright",
+        "test": "npx playwright test",
         "eslint": "eslint",
         "prettier": "prettier",
         "coverage": "jest --collectCoverage"
     },
     "devDependencies": {
+        "@playwright/test": "^1.28.1",
         "eslint": "7.1.0",
         "jest": "^29.3.1",
         "playwright": "^1.28.1"
